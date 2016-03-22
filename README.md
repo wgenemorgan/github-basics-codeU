@@ -45,7 +45,7 @@ To fork a repository, simply click the "Fork" button in the top right corner of 
 
 You should see a modal that lets you select your destination organization. Usually you'll want to fork to your personal profile.
 
-Once you've forked the repo, you can clone your fork of it. Cloning sets up the `master` branch automatically ("branches" are basically namespaces for sets of changes in the source code). You can pull in changes from your fork with a simple `git pull`; if you'd like to pull in changes from the canonical version, you can track changes there, too – just add it as a remote:
+Once you've forked the repo, you can clone your fork of it. Cloning sets up the `master` branch automatically ("branches" are basically named sets of changes in the source code). You can pull in changes from your fork with a simple `git pull`; if you'd like to pull in changes from the canonical version, you can track changes there, too – just add it as a remote:
 
 ```bash
 git remote add upstream git@github.com:[organization]/[repo].git
